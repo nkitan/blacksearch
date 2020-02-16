@@ -21,8 +21,7 @@ BUILD IT YOURSELF
 You can now run it using blacksearch along with the search query / item
 for eg.
 $> blacksearch metasploit                                                                                                   
- <ENTER>                                                                                                                        
-metasploit
+ <ENTER>                                                                                                                     metasploit                                                                                                                 
 $>
 
 ------------------------------------------------ 
