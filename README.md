@@ -17,6 +17,14 @@ BUILD IT YOURSELF
 3. Provide execution permissions using "chmod +x blacksearch.sh"
 4. execute script using ./blacksearch.sh
 
+
+You can now run it using blacksearch along with the search query / item
+for eg.
+$> blacksearch metasploit
+ <ENTER>
+metasploit
+$>
+
 ------------------------------------------------ 
 
 it has bugs as of right now.
