@@ -24,15 +24,13 @@ fi
 #Validation Complete. Proceed to action
 
 if [ "$decider" == '1' ];then
-     cd $HOME
-     echo 'alias blacksearch="sudo pacman -Sgg | grep blackarch | cut -d' ' -f2 | sort -u | grep"' >> .zshrc     #append alias to zshrc file
-     source .zshrc
+     echo 'alias blacksearch="sudo pacman -Sgg | grep blackarch | cut -d' ' -f2 | sort -u | grep"' >> ~/.zshrc     #append alias to zshrc file
+     source ~/.zshrc
      echo "Installed Successfully"
 
 elif [ "$decider" == '2' ];then
-      cd $HOME
-      echo 'alias blacksearch="sudo pacman -Sgg | grep blackarch | cut -d' ' -f2 | sort -u | grep"' >> .bashrc   #append alias to bashrc file
-      source .bashrc
+      echo 'alias blacksearch="sudo pacman -Sgg | grep blackarch | cut -d' ' -f2 | sort -u | grep"' >> ~/.bashrc   #append alias to bashrc file
+      source ~/.bashrc
       echo "Installed Successfully"
 fi      
 
